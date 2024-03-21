@@ -18,8 +18,10 @@
 % 
 
 
-\documentclass[]{deedy-resume-openfont}
+\documentclass{deedy-resume-openfont}
 \usepackage{fancyhdr}
+\usepackage{fontspec}
+\usepackage{parskip}
  
 \pagestyle{fancy}
 \fancyhf{}
@@ -78,12 +80,10 @@
 
 \section{Links} 
 
-Codechef://  \href{https://www.codechef.com/users/prathap00754}{\bf prathap00754} \\
-Leetcode://  \href{https://leetcode.com/prathap_chandra/}{\bf prathap\_chandra} \\
 Medium:// \href{https://medium.com/@prathap_chandra/}{\bf @prathap\_chandra} \\
 Github:// \href{https://github.com/Prathap-Chandra}{\bf Prathap-Chandra} \\
 LinkedIn://  \href{https://www.linkedin.com/in/prathapchandra}{\bf prathapchandra} \\
-YouTube://  \href{https://www.youtube.com/channel/UChfA9tIKEAduV_kxuHyAIkA}{\bf Prathap Chandra} \\
+Website://  \href{https://www.prathapchandra.com/}{\bf prathapchandra.com} \\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     COURSEWORK
@@ -94,11 +94,10 @@ YouTube://  \href{https://www.youtube.com/channel/UChfA9tIKEAduV_kxuHyAIkA}{\bf 
 Data Structures and Algorithms\\
 Database Management Systems\\
 Operating Systems\\
-File Structures\\
-Computer Networks\\
 Cloud Computing\\
 Object Oriented Programming\\
-Unix Tools and Scripting\\
+Computer Networks\\
+Machine Learning\\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -106,26 +105,24 @@ Unix Tools and Scripting\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Skills}
-\subsection{Programming}
-\location{Over 100000 lines:}
-\textbullet{} VanillaJS \textbullet{} NodeJs  \textbullet{} Express \\ 
-\textbullet{} LoopBack \textbullet{} Rest APIs \textbullet{} Sockets\\ 
+\location{Programming}
+\textbullet{} VanillaJS \textbullet{} VueJs \textbullet{} ReactJs \\ \textbullet{} NodeJs  \textbullet{} ExpressJs \textbullet{} NestJs \\
+\textbullet{} Golang \\
 \location{Databases}
-\textbullet{} SQL (PostgreSQL, MySql) \\
-\textbullet{} NoSQL (MongoDB)\\
-\textbullet{} Cache (Redis) \\ 
-\location{Academic Experience}
-\textbullet{} C \textbullet{} C++ \textbullet{} Python\\
-\textbullet{} Bootstrap \textbullet{} PHP\\
-\location{Familiar:}
-\textbullet{} Nginx \textbullet{} Docker \\ 
-\textbullet{} Elastic Search \textbullet{} AWS\\
+\textbullet{} SQL (PostgreSQL, MySql) \\ 
+\textbullet{} NoSQL (MongoDB) \\ 
+\textbullet{} GraphDB (Neo4J) \\ 
+\textbullet{} Cache (Redis) \textbullet{} SQLite \\ 
+\textbullet{} Vector (Qdrant) \\
+\location{Academic Experience} 
+\textbullet{} C \textbullet{} C++ \textbullet{} PHP\\
+\location{Distributed Systems:} 
+\textbullet{} CI/CD \textbullet{} Docker \textbullet{} Kubernetes \\
+\textbullet{} Terraform \textbullet{} AWS \\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
 %     COLUMN TWO
-%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \end{minipage} 
@@ -138,26 +135,25 @@ Unix Tools and Scripting\\
 
 \section{Experience}
 
-\runsubsection{Shipsy}
-\descript{| Software Engineer - Backend }
-\location{Jul 2021 – Present | Gurugram, India}
+\runsubsection{CAW Studios}
+\descript{| Software Engineer - FullStack }
+\location{Jun 2022 – Present | Hyderabad, India}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Working on ondemand delivery features.
-\item Worked on \textbf{custom branch deployments} to make the QA process easy both for developers and QA team.
-\item Writing scripts to parse logs, generate insights out of raw data  to identify bugs.
+\item Implemented \textbf{Outlook Actionable Mails} and \textbf{Actionable Mobile Pages} (Gmail) which allows users to perform a host of help desk actions from within their Mailbox.
+\item Worked on \textbf{fine tuning PostgreSQL config} (apart from indexes) to speed up query response time
 \end{tightemize}
 \sectionsep
 
 \runsubsection{2gethr}
 \descript{| Software Developer }
-\location{May 2020 – Jun 2021 | Bangalore, India}
+\location{May 2020 – Jun 2022 | Bangalore, India}
 % \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Automated the process of code deployment to \textbf{AWS EC2} instance using \textbf{Bitbucket Pipelines.}
-\item Configured \textbf{Role Based Access Control in MongoDB} and automated \textbf{data backup} process on the server using shell scripts and cron jobs.
-\item Wrote the backend of a social network like application using \textbf{sockets} from scratch providing \textbf{multi-tenanted access} with Role Based Access Control.
-\item I have experience with Redis, Load-Balancing, Reverse Proxy(Nginx) and securing Rest APIs, UFW, Bash scripts and commands. Writing scripts to process data, debug production logs and alerting
+\item Automated the process of code deployment to \textbf{AWS EC2} using \textbf{Bitbucket Pipelines.}
+\item Worked on \textbf{custom branch deployments} to simplify the QA process for developers and the QA team.
+\item Configured \textbf{Role Based Access Control in MongoDB} and automated
+\textbf{data backup} process on the server using shell scripts and cron jobs.
 \end{tightemize}
 \sectionsep
 
@@ -174,7 +170,19 @@ Unix Tools and Scripting\\
 \descript{Software Developer Intern }
 \location{Jan 2019 – Jun 2019 | Bangalore, India}
 \begin{tightemize}
-\item Built chatbots of HR Usecases using Yellow Messenger's BotPlatform.io
+\item Built chatbots of HR Use cases using Yellow Messenger's BotPlatform.io
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Hobby Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Hobby Projects}
+\runsubsection{BeersForCheers}\\
+\begin{tightemize}
+\item A \textbf{Peer-to-Peer Recognition Web app} to appreciate your colleagues by giving them virtual beers that they can redeem for vouchers and coupons.
+\item \textbf{Techstack}: VueJs, NestJs, SQLite, Litestream, K3s
 \end{tightemize}
 \sectionsep
 
@@ -186,10 +194,10 @@ Unix Tools and Scripting\\
 \runsubsection{Vignan Information Management System}\\
 \location{Our College Portal}
 \begin{tightemize}
-\item A Portal with \textbf{attendance, results and leave management features with multiple roles and permissions for approvals and analytics}.
+\item A Portal with \textbf{attendance, results, and leave management features with multiple roles and permissions for approvals and analytics}.
 \item The application was built in a way that, any \textbf{JNTU} affiliated college can use in easily. 
 \item \textbf{Studentsfate}, one of my side projects is integrated with this application
-\item Built this under the guidance of our HOD and was used by our college for a while.
+\item Built this under the guidance of our HOD and is used by our college.
 \item \textbf{\href{https://github.com/Prathap-Chandra/VIMS02/}{Click here for GitHub repo}} and \textbf{\href{https://www.youtube.com/watch?v=SD9KdLAw1OI}{Project tour}}
 \end{tightemize}
 \sectionsep
@@ -197,7 +205,7 @@ Unix Tools and Scripting\\
 \runsubsection{VignanHub}\\
 \location{A Mini Facebook}
 \begin{tightemize}
-\item Tried to create an application similar to \textbf{facebook} after watching \textbf{The Social Network movie}. Got prize money of 3k for best project in the expo. 
+\item Tried to create an application similar to \textbf{facebook} after watching \textbf{\href{https://www.imdb.com/title/tt1285016/}{The Social Network}} Movie {\fontspec{Symbola}\symbol{"1F606}}. Got prize money of 10k for best project in the expo. 
 \item \textbf{\href{http://vignanhub.phpnet.us/}{Click Here for website}} and \textbf{\href{https://www.youtube.com/watch?v=SD9KdLAw1OI}{Project tour}}
 \end{tightemize}
 \sectionsep
