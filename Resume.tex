@@ -17,7 +17,6 @@
 % operating system or comment the line out to use the default font.
 % 
 
-
 \documentclass{deedy-resume-openfont}
 \usepackage{fancyhdr}
 \usepackage{fontspec}
@@ -105,20 +104,26 @@ Machine Learning\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Skills}
-\location{Programming}
-\textbullet{} VanillaJS \textbullet{} VueJs \textbullet{} ReactJs \\ \textbullet{} NodeJs  \textbullet{} ExpressJs \textbullet{} NestJs \\
-\textbullet{} Golang \\
+% \location{Programming}
+% \textbullet{} VanillaJS \textbullet{} VueJs \textbullet{} ReactJs \\ \textbullet{} NodeJs  \textbullet{} ExpressJs \textbullet{} NestJs \\
+% \textbullet{} Python \\
+\location{Frontend} 
+\textbullet{} ReactJS \textbullet{} VueJS \\
+\location{Backend} 
+\textbullet{} NodeJS \textbullet{} ExpressJS \textbullet{} NestJS\\ 
+\textbullet{} Python \textbullet{} Flask\\
 \location{Databases}
-\textbullet{} SQL (PostgreSQL, MySql) \\ 
+\textbullet{} SQL (PostgreSQL, MySql, SQLite) \\ 
 \textbullet{} NoSQL (MongoDB) \\ 
-\textbullet{} GraphDB (Neo4J) \\ 
-\textbullet{} Cache (Redis) \textbullet{} SQLite \\ 
+\textbullet{} Cache (Redis)  \\ 
 \textbullet{} Vector (Qdrant) \\
+\textbullet{} GraphDB (Neo4J) \\ 
+\location{Distributed Systems} 
+\textbullet{} Docker \textbullet{} Nginx \\
+\textbullet{} Apache Kafka \textbullet{} AWS \\
 \location{Academic Experience} 
 \textbullet{} C \textbullet{} C++ \textbullet{} PHP\\
-\location{Distributed Systems:} 
-\textbullet{} CI/CD \textbullet{} Docker \textbullet{} Kubernetes \\
-\textbullet{} Terraform \textbullet{} AWS \\
+
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -136,24 +141,24 @@ Machine Learning\\
 \section{Experience}
 
 \runsubsection{CAW Studios}
-\descript{| Software Engineer - FullStack }
+\descript{| Software Development Engineer - II }
 \location{Jun 2022 – Present | Hyderabad, India}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Implemented \textbf{Outlook Actionable Mails} and \textbf{Actionable Mobile Pages} (Gmail) which allows users to perform a host of help desk actions from within their Mailbox.
-\item Worked on \textbf{fine tuning PostgreSQL config} (apart from indexes) to speed up query response time
+\item Implemented \textbf{Outlook Actionable Mails} and \textbf{Actionable Mobile Pages} (Gmail), integrating comprehensive \textbf{help desk functionalities} directly within \textbf{users' mailboxes} resulting in a \textbf{3x increase in sales conversion}.
+\item \textbf{Deployment Platform}: Developed an application enabling developers to select repositories, branches, and custom configurations for deployment, automating Docker container creation.
+\item Led the development of a robust \textbf{integration system} in \textbf{Node.js} from the ground up, serving as a critical \textbf{intermediary} between client applications and the main backend server.
+\item  \textbf{Optimized} system performance by analyzing and refining \textbf{database queries}, significantly boosting \textbf{read and write efficiency by 60\%}
 \end{tightemize}
 \sectionsep
 
-\runsubsection{2gethr}
-\descript{| Software Developer }
+\runsubsection{2gethr, Shipsy}
+\descript{| Software Engineer }
 \location{May 2020 – Jun 2022 | Bangalore, India}
 % \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Automated the process of code deployment to \textbf{AWS EC2} using \textbf{Bitbucket Pipelines.}
-\item Worked on \textbf{custom branch deployments} to simplify the QA process for developers and the QA team.
-\item Configured \textbf{Role Based Access Control in MongoDB} and automated
-\textbf{data backup} process on the server using shell scripts and cron jobs.
+\item Built an entire real-time \textbf{chat application} from scratch using \textbf{Node.js} and \textbf{socket.io}. Automated the process of code deployment using \textbf{Bitbucket Pipelines}
+\item Built the backend for automation of \textbf{Invoice Generation} for clients of a co-working space. Worked with \textbf{Node.js, AWS and MongoDB}
 \end{tightemize}
 \sectionsep
 
@@ -162,27 +167,16 @@ Machine Learning\\
 \descript{ Software Engineer }
 \location{Jun 2019 – Mar 2020 | Bangalore, India}
 \begin{tightemize}
-\item Built Chatbots for various Enterprises
-\item Worked on \textbf{Azure active directory Integration and Authentication}
-\item Worked on \textbf{Microsoft Teams Adaptive Cards}.
+\item  Worked on fine-tuning \textbf{entity extraction} and \textbf{intent classification} for chatbot of various use cases utilizing models like \textbf{Word2Vec} and \textbf{BERT}
+\item Experience with building \textbf{document-based chats} by using \textbf{vector embeddings} of docs and \textbf{vector databases}.
+\item Deployed interactive chatbots to Microsoft Teams using \textbf{App Studio}, thereby extending chatbot support beyond the web to include \textbf{the Microsoft Teams} platform
+\item Designed and developed visually engaging, \textbf{Responsive Adaptive Cards} which are cross-platform UI components within the Microsoft ecosystem.
 \end{tightemize}
 
 \descript{Software Developer Intern }
 \location{Jan 2019 – Jun 2019 | Bangalore, India}
 \begin{tightemize}
-\item Built chatbots of HR Use cases using Yellow Messenger's BotPlatform.io
-\end{tightemize}
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     Hobby Projects
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Hobby Projects}
-\runsubsection{BeersForCheers}\\
-\begin{tightemize}
-\item A \textbf{Peer-to-Peer Recognition Web app} to appreciate your colleagues by giving them virtual beers that they can redeem for vouchers and coupons.
-\item \textbf{Techstack}: VueJs, NestJs, SQLite, Litestream, K3s
+\item Developed specialized \textbf{HR-focused chatbots}, streamlining HR operations and inquiries
 \end{tightemize}
 \sectionsep
 
@@ -194,19 +188,14 @@ Machine Learning\\
 \runsubsection{Vignan Information Management System}\\
 \location{Our College Portal}
 \begin{tightemize}
-\item A Portal with \textbf{attendance, results, and leave management features with multiple roles and permissions for approvals and analytics}.
-\item The application was built in a way that, any \textbf{JNTU} affiliated college can use in easily. 
-\item \textbf{Studentsfate}, one of my side projects is integrated with this application
-\item Built this under the guidance of our HOD and is used by our college.
-\item \textbf{\href{https://github.com/Prathap-Chandra/VIMS02/}{Click here for GitHub repo}} and \textbf{\href{https://www.youtube.com/watch?v=SD9KdLAw1OI}{Project tour}}
+\item Developed a comprehensive portal featuring \textbf{attendance, results, and leave management}, customizable for any \textbf{JNTU-affiliated college}, and integrated with my side project, Studentsfate, under our HOD's guidance, now utilized by our college. \textbf{\href{https://github.com/Prathap-Chandra/VIMS02/}{Click here for GitHub repo}} and \textbf{\href{https://www.youtube.com/watch?v=SD9KdLAw1OI}{Project tour}}
 \end{tightemize}
 \sectionsep
 
 \runsubsection{VignanHub}\\
 \location{A Mini Facebook}
 \begin{tightemize}
-\item Tried to create an application similar to \textbf{facebook} after watching \textbf{\href{https://www.imdb.com/title/tt1285016/}{The Social Network}} Movie {\fontspec{Symbola}\symbol{"1F606}}. Got prize money of 10k for best project in the expo. 
-\item \textbf{\href{http://vignanhub.phpnet.us/}{Click Here for website}} and \textbf{\href{https://www.youtube.com/watch?v=SD9KdLAw1OI}{Project tour}}
+\item Create an application similar to \textbf{facebook} after watching \textbf{\href{https://www.imdb.com/title/tt1285016/}{The Social Network}} Movie {\fontspec{Symbola}\symbol{"1F606}}. \textbf{Received a {\fontspec{Symbola}\symbol{"20B9}}10,000 cash prize for winning the best project} at the expo in our college. 
 \end{tightemize}
 \sectionsep
 \nocite{*}
